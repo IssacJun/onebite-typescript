@@ -5,6 +5,7 @@
         "module": "esnext",
         "outDir": "dist",
         "strict": true,
+        "strictNullChecks": true, // 엄격한 null 검사
         "moduleDetection": "force",
         "moduleResolution": "Node", // 또는 "NodeNext"
         "skipLibCheck": true,
