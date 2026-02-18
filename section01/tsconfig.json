@@ -1,0 +1,19 @@
+{
+  // 컴파일할 파일 및 목록
+  "include": ["src"],
+  "compilerOptions": {
+    // 컴파일 할 때 생성되는 JS의 버전(esnext: 최신 JS버전)
+    "target": "esnext",
+    // 모듈 시스템(export, import) 버전
+    "module": "esnext",
+    // 빌드 산출물 위치
+    "outDir": "dist",
+    // 컴파일 난이도 정도
+    // 예를 들어 매개변수에 대한 타입 정의해야
+    "strict": false,
+    // 각각의 파일을 어떤 모듈로 인식하는지 정의함
+    // 컴파일러가 모듈 시스템 키워드를 주입해서 독립 모듈로 인식함
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  }  
+}
