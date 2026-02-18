@@ -1,0 +1,15 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "outDir": "dist",
+        "strict": true,
+        "moduleDetection": "force",
+        "moduleResolution": "Node", // 또는 "NodeNext"
+        "skipLibCheck": true,
+    },
+    "ts-node": {
+        "esm": true
+    }
+}
