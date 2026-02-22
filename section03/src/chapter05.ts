@@ -61,3 +61,4 @@ let inter1: Intersection = {
     color: "",
     lang: "",
 }
+
